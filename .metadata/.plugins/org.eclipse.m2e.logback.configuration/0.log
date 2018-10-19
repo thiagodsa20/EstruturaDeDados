@@ -2277,3 +2277,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration StudentQueueTest re
 2018-10-15 22:36:13,634 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2018-10-15 22:36:19,417 [Worker-50: Launching R08-01-Rot-TabelaHash-EndFechado-environment (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rafaeldsa/Documentos/EstruturaDeDados/R08-01-Rot-TabelaHash-EndFechado-environment
 2018-10-15 22:36:19,417 [Worker-50: Launching R08-01-Rot-TabelaHash-EndFechado-environment (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
+2018-10-15 22:38:55,811 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-15 22:38:55,812 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rafaeldsa/Documentos/EstruturaDeDados/R08-01-Rot-TabelaHash-EndFechado-environment/src/main/resources
+2018-10-15 22:38:55,816 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-15 22:38:55,818 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rafaeldsa/Documentos/EstruturaDeDados/R08-01-Rot-TabelaHash-EndFechado-environment/src/test/resources
+2018-10-16 19:58:00,123 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-10-16 19:58:08,296 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-16 19:58:08,302 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rafaeldsa/Documentos/EstruturaDeDados/R08-01-Rot-TabelaHash-EndFechado-environment/src/main/resources
+2018-10-16 19:58:08,303 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-16 19:58:08,304 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rafaeldsa/Documentos/EstruturaDeDados/R08-01-Rot-TabelaHash-EndFechado-environment/src/test/resources
