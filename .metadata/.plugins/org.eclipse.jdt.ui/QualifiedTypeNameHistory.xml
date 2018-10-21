@@ -12,4 +12,5 @@
 <fullyQualifiedTypeName name="adt.linkedList.DoubleLinkedListNode"/>
 <fullyQualifiedTypeName name="adt.queue.QueueDoubleLinkedListImpl"/>
 <fullyQualifiedTypeName name="adt.linkedList.RecursiveSingleLinkedListImpl"/>
+<fullyQualifiedTypeName name="adt.hashtable.hashfunction.HashFunctionQuadraticProbing"/>
 </qualifiedTypeNameHistroy>

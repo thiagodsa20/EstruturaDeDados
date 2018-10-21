@@ -2,18 +2,16 @@ package adt.linkedList;
 
 public class SingleLinkedListImpl<T> implements LinkedList<T> {
 
-	protected T data;
-	protected SingleLinkedListImpl<T> next;
+	protected SingleLinkedListNode<T> head;
 	
 
 	public SingleLinkedListImpl() {
-		this.data = null;
-		this.next = null;
+		this.head = new SingleLinkedListNode<>();
 	}
 
 	@Override
 	public boolean isEmpty() {
-		if(data == null) {
+		if(this.head.isNIL()) {
 			return true;
 		}
 		else {

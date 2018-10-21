@@ -83,7 +83,7 @@ public class HashtableClosedAddressImpl<T> extends
     if(element != null) {
     	int hash = ((HashFunctionClosedAddress<T>) getHashFunction()).hash(element);
     	if(getCelula(hash).contains(element)) {
-    		getCelula(hash).remove();
+    		getCelula(hash).remove(element);
     		elements--;
     	}
     }
